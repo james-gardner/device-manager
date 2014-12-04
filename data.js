@@ -602,4 +602,4 @@ var devices = [{
     "name": "Sonynn Xperia Z1",
     "status": "in",
     "os": "Android 4.4.4"
-}]''
+}];

@@ -21,7 +21,7 @@ Create an application that can provide information on the whereabouts and status
 
 The application should at the very least:
 
-  * Catalog and list all of our devices
+  * Catalog and list all of our devices (you can fake these using json)
   * Reflect the status (availability, last user etc) of each device
 
 **Constraints**

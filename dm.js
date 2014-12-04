@@ -1,28 +1,27 @@
 (function(global) {
   'use strict';
 
-  var DeviceList = function(el, data) {
+  var DeviceManager = function(el, data) {
     this.el = el;
     this.data = data;
   };
 
-  var p = DeviceList.prototype;
+  var p = DeviceManager.prototype;
 
-  p.list = function(tmpl) {
+  p.render = function(tmpl) {
     this.data.forEach(function(obj) {
       this.el.appendChild(tmpl(obj));
     }.bind(this));
   };
 
-  global.DeviceList = DeviceList;
+  global.DeviceManager = DeviceManager;
 }(window));
 
-var dm = new DeviceList(document.getElementById('devices'), devices);
+var dm = new DeviceManager(document.getElementById('devices'), devices);
 
-// Pass in data with a decorator.
-dm.list(function(obj) {
-  var li = document.createElement('li');
-      li.textContent = obj.name;
+dm.render(function(obj) {
+  var el = document.createElement('li');
+      el.innerHTML = '<p><strong>' + obj.name + '</strong> '+ obj.status +'</p>';
 
-  return li;
+  return el;
 });

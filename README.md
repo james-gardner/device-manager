@@ -23,6 +23,7 @@ The application should at the very least:
 
   * Catalog and list all of our devices (you can fake these using data.js or your own dummy data)
   * Reflect the status (availability, last user etc) of each device
+  * Allow you to change/toggle the status
 
 **Constraints**
 

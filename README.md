@@ -40,3 +40,4 @@ The application should at the very least:
 ** Resources **
   * https://gist.github.com/sym3tri/2425983 
   * http://www.sitepoint.com/jquery-vs-raw-javascript-1-dom-forms/
+  * http://stackoverflow.com/questions/24117369/vanilla-js-event-delegation-dealing-with-child-elements-of-the-target-element

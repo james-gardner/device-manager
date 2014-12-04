@@ -3,7 +3,7 @@ Device Manager
 
 Sample application for learning.
 
-**Problem Description**
+**Imaginary Problem Description**
 
 We have a drawer full of devices which our developers are using to test the product.
 

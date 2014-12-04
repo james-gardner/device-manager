@@ -31,6 +31,10 @@ The application should at the very least:
   * Try and avoid the use of jQuery and other such libraries (you can assume ES5) We will be looking at framework and refactoring at a later state.
   * Must work on IE10+
 
-No need to persist changes to data.
-Submit your proposals/code via pull requests. Questions via issues.
-Styles/Appearance are not important. Purely focussed on functionality.
+**Additional Details and Resources**
+  * No need to persist changes to data.
+  * Submit your proposals/code via pull requests. Questions via issues.
+  * Styles/Appearance are not important. Purely focussed on functionality.
+
+See: https://gist.github.com/sym3tri/2425983 
+  

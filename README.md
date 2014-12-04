@@ -32,10 +32,11 @@ The application should at the very least:
   * Try and avoid the use of jQuery and other such libraries (you can assume ES5) We will be looking at framework and refactoring at a later state.
   * Must work on IE10+
 
-**Additional Details and Resources**
+**Additional Details**
   * No need to persist changes to data.
   * Submit your proposals/code via pull requests. Questions via issues.
   * Styles/Appearance are not important. Purely focussed on functionality.
 
-https://gist.github.com/sym3tri/2425983 
-http://www.sitepoint.com/jquery-vs-raw-javascript-1-dom-forms/
+** Resources **
+  * https://gist.github.com/sym3tri/2425983 
+  * http://www.sitepoint.com/jquery-vs-raw-javascript-1-dom-forms/

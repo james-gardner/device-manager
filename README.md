@@ -37,5 +37,5 @@ The application should at the very least:
   * Submit your proposals/code via pull requests. Questions via issues.
   * Styles/Appearance are not important. Purely focussed on functionality.
 
-See: https://gist.github.com/sym3tri/2425983 
-     http://www.sitepoint.com/jquery-vs-raw-javascript-1-dom-forms/
+https://gist.github.com/sym3tri/2425983 
+http://www.sitepoint.com/jquery-vs-raw-javascript-1-dom-forms/

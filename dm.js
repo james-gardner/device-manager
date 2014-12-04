@@ -8,20 +8,19 @@
 
   var p = DeviceManager.prototype;
 
-  p.render = function(tmpl) {
+  p.render = function() {
+    var li, el = this.el;
+
     this.data.forEach(function(obj) {
-      this.el.appendChild(tmpl(obj));
-    }.bind(this));
+      li = document.createElement('li');
+      li.innerHTML = '<p><strong>' + obj.name + '</strong></p>';
+
+      el.appendChild(li);
+    });
   };
 
   global.DeviceManager = DeviceManager;
 }(window));
 
 var dm = new DeviceManager(document.getElementById('devices'), devices);
-
-dm.render(function(obj) {
-  var el = document.createElement('li');
-      el.innerHTML = '<p><strong>' + obj.name + '</strong> '+ obj.status +'</p>';
-
-  return el;
-});
+    dm.render();

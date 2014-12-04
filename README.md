@@ -32,4 +32,4 @@ The application should at the very least:
   * Must work on IE10+
 
 Submit your proposals/code via pull requests. Questions via issues.
-
+Styles/Appearance are not important. Purely focussed on functionality.
